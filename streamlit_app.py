@@ -144,35 +144,7 @@ def add_css():
         unsafe_allow_html=True,
     )
 
-with st.container():
-    embeddedrenderer.html("""
-    <!DOCTYPE html>
-    <html>
-
-      <head>
-
-        <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
-        <br>
-        <a href="https://pearlhackstest.glitch.me/teal.html">Click here to view the GREEN version</a>
-        <br>
-        <a href="https://pearlhackstest.glitch.me/purple.html">Click here to view the PURPLE version</a>
-
-
-      </head>
-
-    <body>
-
-      <embed src="https://pearlhackstest.glitch.me/pink.html"
-        width="800px"
-        height="800px"
-        allowfullscreen
-        sandbox>
-
-      </body>
-
-
-    </html>
-    """)
+   
 
     
 def main():
@@ -198,6 +170,28 @@ def main():
         overall = sentiment_scores(text)
         more_suggestions = suggestions(text)
         st.write(more_suggestions)
+        
+   embeddedrenderer.html("""
+    <!DOCTYPE html>
+    <html>
+      <head>
+
+        <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
+        <br>
+        <a href="https://pearlhackstest.glitch.me/teal.html">Click here to view the GREEN version</a>
+        <br>
+        <a href="https://pearlhackstest.glitch.me/purple.html">Click here to view the PURPLE version</a>
+
+      </head>
+    <body>
+      <embed src="https://pearlhackstest.glitch.me/pink.html"
+        width="800px"
+        height="800px"
+        allowfullscreen
+        sandbox>
+      </body>
+    </html>
+    """)
     
 
 
