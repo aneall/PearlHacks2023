@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <button onclick="changecolor()">Change Color</button>
+    <br>
+    
+    <script>
+      
+      document.getElementById("purple").style.visibility = "hidden";
+      document.getElementById("green").style.visibility = "hidden";
+      
+    function changecolor() {
+      
+      if (document.getElementById("pink").style.visibility) == "visible") {
+        document.getElementById("pink").style.visibility = "hidden";
+        document.getElementById("purple").style.visibility = "visible";
+      }
+        
+      else { if (document.getElementById("purple").style.visibility) == "visible") {
+        document.getElementById("purple").style.visibility = "hidden";
+        document.getElementById("green").style.visibility = "visible";
+      }
+           }
+      else { if (document.getElementById("green").style.visibility) == "visible") {
+        document.getElementById("green").style.visibility = "hidden";
+        document.getElementById("pink").style.visibility = "visible";
+      }
+           }
+        
+      
+      
+    }
+    </script>
+  
+
+  </head>
+  
+<body>
+  
+  <embed id="pink" src="https://pearlhackstest.glitch.me/pink.html"
+    width="800px"
+    height="800px"
+    allowfullscreen
+    sandbox>
+  
+  <embed id="purple" src="https://pearlhackstest.glitch.me/purple.html"
+    width="800px"
+    height="800px"
+    allowfullscreen
+    sandbox>
+  
+  <embed id="green" src="https://pearlhackstest.glitch.me/green.html"
+    width="800px"
+    height="800px"
+    allowfullscreen
+    sandbox>
+
+  </body>
+    
+  
+</html>
