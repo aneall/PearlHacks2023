@@ -176,12 +176,6 @@ def main():
         <html>
           <head>
 
-            <buttonn</a>
-            <br>
-            <a href="https://pearlhackstest.glitch.me/teal.html">Click here to view the GREEN version</a>
-            <br>
-            <a href="https://pearlhackstest.glitch.me/purple.html">Click here to view the PURPLE version</a>
-
           </head>
         <body>
           <embed src="https://pearlhackstest.glitch.me/pink.html"
