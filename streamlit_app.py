@@ -146,7 +146,6 @@ def add_css():
 
 
 renderer.html("""
-<!DOCTYPE html>
 <html>
   
   <head>
