@@ -189,6 +189,19 @@ def main():
             height="800px"
             allowfullscreen
             sandbox>
+            
+            <embed src="https://pearlhackstest.glitch.me/purple.html"
+            width="800px"
+            height="800px"
+            allowfullscreen
+            sandbox>
+            
+            <embed src="https://pearlhackstest.glitch.me/green.html"
+            width="800px"
+            height="800px"
+            allowfullscreen
+            sandbox>
+            
           </body>
         </html>
         """,
