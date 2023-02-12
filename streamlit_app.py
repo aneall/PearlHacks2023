@@ -151,11 +151,11 @@ embeddedrenderer.html("""
   
   <head>
     
-    <a href="pink.html">Click here to view the PINK version</a>
+    <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
     <br>
-    <a href="teal.html">Click here to view the TEAL version</a>
+    <a href="https://pearlhackstest.glitch.me/teal.html">Click here to view the GREEN version</a>
     <br>
-    <a href="purple.html">Click here to view the PURPLE version</a>
+    <a href="https://pearlhackstest.glitch.me/purple.html">Click here to view the PURPLE version</a>
   
 
   </head>
