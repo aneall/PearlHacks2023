@@ -199,7 +199,7 @@ def main():
           </body>
         </html>
         """,
-    height=920, width=920, scrolling=True)
+    height=900, width=920, scrolling=True)
     
 
 
