@@ -7,8 +7,6 @@ from streamlit_lottie import st_lottie_spinner
 import requests
 import time
 
-st.components.v1.html(embeddedrenderer.html, width=600, height=600, scrolling=True)
-
 st.markdown("""
     <style>
     body {
@@ -175,6 +173,9 @@ def main():
         
     embeddedrenderer.html("""
    <html>
+   <script>
+   Streamlit.setFrameHeight(200)
+   </script>
           <head>
 
             <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
