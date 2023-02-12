@@ -171,7 +171,7 @@ def main():
         more_suggestions = suggestions(text)
         st.write(more_suggestions)
         
-    if overall:
+    if len(overall) >= 5:
         embeddedrenderer.html(
         """
         <html>
@@ -182,6 +182,7 @@ def main():
           <embed src="https://pearlhackstest.glitch.me/pink.html"
             width="800px"
             height="800px"
+            visibility="hidden"
             allowfullscreen
             sandbox>
             
