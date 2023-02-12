@@ -1,2 +1,2 @@
-# PearlHacks2023
-Our project for PearlHacks 2023
+# PearlHacks2023 –– Pitch Perfect
+Ashley, Anika, and Teju's project for PearlHacks 2023!
