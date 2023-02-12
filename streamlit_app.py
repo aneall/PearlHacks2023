@@ -162,7 +162,7 @@ renderer.html("""
         <a-asset-item
           id="pinkiphone"
           response-type="arraybuffer"
-          src="ADDHERE"
+          src="pinkiphone.glb"
         ></a-asset-item>
         
       </a-assets>
