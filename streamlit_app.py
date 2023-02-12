@@ -176,7 +176,7 @@ def main():
         <html>
           <head>
 
-            <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
+            <buttonn</a>
             <br>
             <a href="https://pearlhackstest.glitch.me/teal.html">Click here to view the GREEN version</a>
             <br>
@@ -205,7 +205,7 @@ def main():
           </body>
         </html>
         """,
-    height=950, width=950, scrolling=False)
+    height=920, width=920, scrolling=True)
     
 
 
