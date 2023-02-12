@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit.components.v1 as renderer
+import streamlit.components.v1 as embeddedrenderer
 import speech_recognition as sr
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from streamlit_lottie import st_lottie
@@ -145,37 +145,31 @@ def add_css():
     )
 
 
-renderer.html("""
+embeddedrenderer.html("""
+<!DOCTYPE html>
 <html>
   
   <head>
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    
+    <a href="pink.html">Click here to view the PINK version</a>
+    <br>
+    <a href="teal.html">Click here to view the TEAL version</a>
+    <br>
+    <a href="purple.html">Click here to view the PURPLE version</a>
+  
+
   </head>
+  
+<body>
+  
+  <embed src="https://pearlhackstest.glitch.me/pink.html"
+    width="800px"
+    height="800px"
+    allowfullscreen
+    sandbox>
 
-  <body>
-    
-    <a-scene>
-      
-      <a-assets>
-        <a-asset-item
-          id="pinkiphone"
-          response-type="arraybuffer"
-          src="pinkiphone.glb"
-        ></a-asset-item>
-        
-      </a-assets>
-
-      <a-entity light="type: directional; color: white; intensity: .9" position="0 1 0"> </a-entity>
-      <a-entity light="type: spot; color: D6ECFE; intensity: 1.1" position=".2 .8 1.2" > </a-entity>
-      <a-entity light="type: spot; color: D6ECFE; intensity: .8" position=".2 1.8 .8" > </a-entity>
-      <a-entity light="type: directional; color: EDF3FF; intensity: .5" position=".2 1 1.3"> </a-entity>
-      
-      <a-entity rotation=".3 .3 .2" animation="property: rotation; to: 0 360 0; loop: true; dur: 4000" gltf-model="#pinkiphone" scale="1 1 1" position="0 1.6 -.8"></a-entity>
-      
-    </a-scene>
-    
   </body>
+    
   
 </html>
 """)    
