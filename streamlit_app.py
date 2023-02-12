@@ -172,36 +172,36 @@ def main():
         st.write(more_suggestions)
         
  
-        embeddedrenderer.html(
-        """
-        <html>
-          <head>
+    embeddedrenderer.html(
+    """
+    <html>
+      <head>
 
-          </head>
-        <body>
-          <embed src="https://pearlhackstest.glitch.me/pink.html"
-            width="800px"
-            height="800px"
-            visibility="hidden"
-            allowfullscreen
-            sandbox>
-            
-            <embed src="https://pearlhackstest.glitch.me/purple.html"
-            width="800px"
-            height="800px"
-            allowfullscreen
-            sandbox>
-            
-            <embed src="https://pearlhackstest.glitch.me/green.html"
-            width="800px"
-            height="800px"
-            allowfullscreen
-            sandbox>
-            
-          </body>
-        </html>
-        """,
-    height=900, width=920, scrolling=True)
+      </head>
+    <body>
+      <embed src="https://pearlhackstest.glitch.me/pink.html"
+        width="800px"
+        height="800px"
+        visibility="hidden"
+        allowfullscreen
+        sandbox>
+
+        <embed src="https://pearlhackstest.glitch.me/purple.html"
+        width="800px"
+        height="800px"
+        allowfullscreen
+        sandbox>
+
+        <embed src="https://pearlhackstest.glitch.me/green.html"
+        width="800px"
+        height="800px"
+        allowfullscreen
+        sandbox>
+
+      </body>
+    </html>
+    """,
+height=900, width=920, scrolling=True)
     
 
 
