@@ -174,8 +174,6 @@ embeddedrenderer.html("""
 </html>
 """)
 
-st.components.v1.html(embeddedrenderer.html, width="600px", height="600px", scrolling=False)
-
     
 def main():
 
