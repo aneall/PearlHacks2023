@@ -192,7 +192,7 @@ def main():
           </body>
         </html>
         """,
-    height=600, width=600, scrolling=True)
+    height=800, width=800, scrolling=False)
     
 
 
