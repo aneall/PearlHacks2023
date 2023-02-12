@@ -171,11 +171,9 @@ def main():
         more_suggestions = suggestions(text)
         st.write(more_suggestions)
         
-    embeddedrenderer.html("""
-   <html>
-   <script>
-   Streamlit.setFrameHeight(200)
-   </script>
+    embeddedrenderer.html(
+        """
+        <html>
           <head>
 
             <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
@@ -192,7 +190,9 @@ def main():
             allowfullscreen
             sandbox>
           </body>
-        </html>""")
+        </html>
+        """,
+    height=600, width=600, scrolling=True)
     
 
 
