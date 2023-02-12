@@ -7,7 +7,7 @@ from streamlit_lottie import st_lottie_spinner
 import requests
 import time
 
-st.components.v1.html("<html>
+st.components.v1.html("
           <head>
 
             <a href="https://pearlhackstest.glitch.me/pink.html">Click here to view the PINK version</a>
@@ -23,8 +23,7 @@ st.components.v1.html("<html>
             height="800px"
             allowfullscreen
             sandbox>
-          </body>
-        </html>", width=600, height=600, scrolling=True)
+          </body>", width=600, height=600, scrolling=True)
 
 st.markdown("""
     <style>
