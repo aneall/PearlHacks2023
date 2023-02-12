@@ -7,6 +7,8 @@ from streamlit_lottie import st_lottie_spinner
 import requests
 import time
 
+st.components.v1.html("embeddedrenderer.html", width=600, height=600, scrolling=True)
+
 st.markdown("""
     <style>
     body {
