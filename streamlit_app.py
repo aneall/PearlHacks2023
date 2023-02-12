@@ -171,7 +171,7 @@ def main():
         more_suggestions = suggestions(text)
         st.write(more_suggestions)
         
-    if len(overall) >= 5:
+ 
         embeddedrenderer.html(
         """
         <html>
