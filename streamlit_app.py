@@ -171,7 +171,8 @@ def main():
         more_suggestions = suggestions(text)
         st.write(more_suggestions)
         
-    embeddedrenderer.html(
+    if overall:
+        embeddedrenderer.html(
         """
         <html>
           <head>
